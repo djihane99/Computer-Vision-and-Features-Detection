@@ -1,4 +1,6 @@
-# Computer-Vision-and-Features-Detection
+# Computer Vision and Features Detection
+#Harris Corner Detector
+
 Nous voulons détecter les features dans les images ship1, ship2, castle1 et castle2
 
 ![castle1](https://user-images.githubusercontent.com/68650014/195927616-5a613866-e5e0-4a6e-9344-0ca237528f75.jpg)
@@ -15,3 +17,7 @@ Il permet de fltrer les points sur les lignes et de détecter des points situés
 Le plus grand avantage de Harris Corner Detector est qu'il est invariant à des facteurs tels que la rotation, la translation et les changements d'éclairage.
 Son seul gros inconvénient est que nous devons définir des valeurs de seuil différentes pour chaque image afin de détecter les points d'intérêt les plus importants.
 Si la valeur de seuil utilisée est trop faible, l'algorithme peut finir par détecter une grande quantité de points avec des données d'image bruitées.
+
+#SURF
+Une autre façon serait d'utiliser l'algorithme SURF qui est partiellement inspiré par le descripteur SIFT mais qu'il surpasse en rapidité et, selon ses auteurs, plus robuste pour différentes transformations d'images.
+En l'appliquant on peut bien remrquer que les résultats sont bien meuilleurs et les données bruités ne sont pas detectées comme features contrairement aux résultats de Harris. D’ou SURF plus robustes par rapport au zoom..etc
