@@ -19,5 +19,6 @@ Son seul gros inconvénient est que nous devons définir des valeurs de seuil di
 Si la valeur de seuil utilisée est trop faible, l'algorithme peut finir par détecter une grande quantité de points avec des données d'image bruitées.
 
 #SURF
+
 Une autre façon serait d'utiliser l'algorithme SURF qui est partiellement inspiré par le descripteur SIFT mais qu'il surpasse en rapidité et, selon ses auteurs, plus robuste pour différentes transformations d'images.
 En l'appliquant on peut bien remrquer que les résultats sont bien meuilleurs et les données bruités ne sont pas detectées comme features contrairement aux résultats de Harris. D’ou SURF plus robustes par rapport au zoom..etc
